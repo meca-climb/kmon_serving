@@ -1,0 +1,240 @@
+id: br_mg_caete_pedra_branca
+nome: Pedra Branca
+creditos:
+- Mauricio Juntolli
+- Danilo Stehling
+arquivos_markdown:
+- titulo: Capa
+  conteudo: '# Capa
+
+
+    ![Pedra Branca](imagens/pagina_0_imagem_0.webp)
+
+
+    **Pedra Branca**
+
+    Caeté - MG
+
+
+    **Autores:**
+
+    Mauricio Juntolli
+
+    Danilo Stehling
+
+
+    Atualizado em: 2010'
+picos:
+- nome: Pedra Branca
+  estado: MG
+  setores:
+  - conteudo:
+      nome: Croqui 01 da Pedra Branca
+      mapas:
+      - caminho_imagem_mapa: imagens/pagina_1_imagem_0.webp
+      escaladas:
+      - via_esportiva:
+          nome: Parede Preta
+          id_no_mapa: '13'
+          dificuldade: BR_6
+          quantidade_protecoes_intermediarias: 4
+      - via_esportiva:
+          nome: Leão da Montanha
+          id_no_mapa: '14'
+          dificuldade: BR_6
+          quantidade_protecoes_intermediarias: 5
+      - via_esportiva:
+          nome: Face Norte
+          id_no_mapa: '15'
+          dificuldade: BR_5
+          quantidade_protecoes_intermediarias: 3
+      - via_esportiva:
+          nome: Criaturas da Noite
+          id_no_mapa: '16'
+          dificuldade: BR_6
+          quantidade_protecoes_intermediarias: 3
+      - via_esportiva:
+          nome: Tendência Suicida
+          id_no_mapa: '17'
+          dificuldade: BR_6
+          quantidade_protecoes_intermediarias: 5
+      - via_esportiva:
+          nome: Thor
+          id_no_mapa: '18'
+          dificuldade: BR_7A
+      - via_esportiva:
+          nome: Todinha pra Mim
+          id_no_mapa: '19'
+          dificuldade: BR_7B
+      - via_esportiva:
+          nome: Sombra do Gigante
+          id_no_mapa: '20'
+          dificuldade: BR_7B
+      - via_esportiva:
+          nome: Firinha Rinda
+          id_no_mapa: '21'
+          dificuldade: BR_7B
+      - via_esportiva:
+          nome: Piolhos Entorpecidos
+          id_no_mapa: '22'
+          dificuldade: BR_8B
+      - via_esportiva:
+          nome: Monstros
+          id_no_mapa: '23'
+          dificuldade: BR_9C
+      - via_esportiva:
+          nome: Princesa Escalafabeltica
+          id_no_mapa: '24'
+          dificuldade: BR_8B
+      - via_esportiva:
+          nome: Restos de Woodstock
+          id_no_mapa: '25'
+          dificuldade: BR_8C
+      - via_esportiva:
+          nome: ??
+          id_no_mapa: '26'
+      - via_esportiva:
+          nome: Via da Coruja
+          id_no_mapa: '27'
+          dificuldade: BR_3
+      - via_esportiva:
+          nome: Dona Onça
+          id_no_mapa: '28'
+          dificuldade: BR_6SUP
+      - via_esportiva:
+          nome: Solidão das Idéias
+          id_no_mapa: '29'
+          dificuldade: BR_8C
+      - via_esportiva:
+          nome: A Espera dos Urubus
+          id_no_mapa: '30'
+          dificuldade: BR_8B
+      - via_esportiva:
+          nome: Gaviões
+          id_no_mapa: '31'
+          dificuldade: BR_9B
+      - via_esportiva:
+          nome: Azimut Vertical
+          id_no_mapa: '32'
+          dificuldade: BR_9A
+      - via_esportiva:
+          nome: Zique Zira da Raca Rouca
+          id_no_mapa: '33'
+          dificuldade: BR_8B
+      - via_esportiva:
+          nome: Mistérios da Fé
+          id_no_mapa: '34'
+          dificuldade: BR_6
+          dificuldade_artificial: A2_MAIS
+      - via_esportiva:
+          nome: Nem Karaca Caia
+          id_no_mapa: '35'
+          dificuldade: BR_8B
+      - via_esportiva:
+          nome: Variante Culpa do Elninho
+          id_no_mapa: A
+          dificuldade: BR_5
+      - via_esportiva:
+          nome: Variante do Mergulho
+          id_no_mapa: B
+          dificuldade: BR_6SUP
+      - via_esportiva:
+          nome: Variante por Aqui
+          id_no_mapa: C
+          dificuldade: BR_3
+      - via_esportiva:
+          nome: Variante do Judas
+          id_no_mapa: D
+          dificuldade: BR_4
+      descricao: '# Croqui 01 da Pedra Branca
+
+
+        Considere uma ou duas costuras a mais, pois pode ter erro na contagem das
+        proteções.
+
+
+        **Autores:** Mauricio Juntolli, Danilo Stehling.
+
+        **Atualizado em:** 2010.
+
+        **Fonte:** http://www.escaladacaete.eu5.org'
+  - conteudo:
+      nome: Croqui 02 da Pedra Branca
+      mapas:
+      - caminho_imagem_mapa: imagens/pagina_2_imagem_0.webp
+      escaladas:
+      - via_esportiva:
+          nome: Festival dos Lagartos
+          id_no_mapa: '01'
+          dificuldade: BR_3SUP
+      - via_esportiva:
+          nome: Melhor Impossível
+          id_no_mapa: '02'
+          dificuldade: BR_4
+      - via_esportiva:
+          nome: Lombra Etílica
+          id_no_mapa: '03'
+          dificuldade: BR_6SUP
+      - via_esportiva:
+          nome: Paredão SLU
+          id_no_mapa: '04'
+          dificuldade: BR_5
+      - via_esportiva:
+          nome: Libertas
+          id_no_mapa: '05'
+          dificuldade: BR_6SUP
+      - via_esportiva:
+          nome: Micos
+          id_no_mapa: '06'
+          dificuldade: BR_5
+      - via_esportiva:
+          nome: Via da Perereca
+          id_no_mapa: '07'
+          dificuldade: BR_7B
+      - via_esportiva:
+          nome: Barbarela
+          id_no_mapa: 08
+          dificuldade: BR_7A
+      - via_esportiva:
+          nome: Ciganos Molhados
+          id_no_mapa: 09
+          dificuldade: BR_5
+      - via_esportiva:
+          nome: Abominável Morcego Amestrado
+          id_no_mapa: '10'
+          dificuldade: BR_7B
+      - via_esportiva:
+          nome: Os Quatro Macacos
+          id_no_mapa: '11'
+          dificuldade: BR_7A
+      - via_esportiva:
+          nome: Produção Independente
+          id_no_mapa: '12'
+          dificuldade: BR_6SUP
+      - via_esportiva:
+          nome: Parede Preta
+          id_no_mapa: '13'
+          dificuldade: BR_6
+          quantidade_protecoes_intermediarias: 4
+      descricao: '# Croqui 02 da Pedra Branca
+
+
+        O resto da grampeação da via Parede Preta esta no croqui 01 da Pedra Branca.
+
+
+        Considere uma ou duas costuras a mais, pois pode ter erro na contagem das
+        proteções.
+
+
+        **Autores:** Mauricio Juntolli, Danilo Stehling.
+
+        **Atualizado em:** 2010.
+
+        **Fonte:** http://www.escaladacaete.eu5.org'
+arquivos_externos:
+- caminho: imagens/pagina_0_imagem_0.webp
+  checksum_sha256: 03a17148a9a997447bd4555d859d8872b948baeb990f4c77532574028d1938f8
+- caminho: imagens/pagina_1_imagem_0.webp
+  checksum_sha256: 55eba963711d312529ce56a59cb6f4483bf42d42f4c7fcf1be2212403e2f4ebd
+- caminho: imagens/pagina_2_imagem_0.webp
+  checksum_sha256: 0a443d855baf3c176d11e03d1d474ecf81ed1594df2c2d8adebccddef898bada
