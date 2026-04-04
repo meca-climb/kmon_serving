@@ -25,9 +25,11 @@ jobs:
         env:
           KMON_DB_READ: ${{ secrets.KMON_DB_READ }}
         run: |
-          # Configura o token para HTTPS em todos os repos da org acecmg
+          # Aplica o token apenas para clonar os repos privados da org
           git config --global url."https://x-access-token:${KMON_DB_READ}@github.com/acecmg/".insteadOf "https://github.com/acecmg/"
           git submodule update --init --recursive kmon_db
+          # Remove o override para que o git push use o GITHUB_TOKEN padrão
+          git config --global --unset url."https://x-access-token:${KMON_DB_READ}@github.com/acecmg/".insteadOf
 
       - name: Atualizar submódulo kmon_db para o commit mais recente
         run: |
