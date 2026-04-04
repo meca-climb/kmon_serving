@@ -19,6 +19,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+          token: ${{ secrets.KMON_DB_READ }}
 
       - name: Atualizar submódulo kmon_db para o commit mais recente
         run: |
