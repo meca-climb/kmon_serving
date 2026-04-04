@@ -21,20 +21,17 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.KMON_DB_READ }}
 
-      - name: Inicializar submódulos (kmon_db e kmon_api aninhado)
+      - name: Inicializar e atualizar submódulo kmon_db
         env:
           KMON_DB_READ: ${{ secrets.KMON_DB_READ }}
         run: |
-          # Aplica o token apenas para clonar os repos privados da org
           git config --global url."https://x-access-token:${KMON_DB_READ}@github.com/acecmg/".insteadOf "https://github.com/acecmg/"
           git submodule update --init --recursive kmon_db
+          git submodule update --remote --merge kmon_db
+          echo "kmon_db HEAD: $(git -C kmon_db rev-parse HEAD)"
           # Remove o override para que o git push use o GITHUB_TOKEN padrão
           git config --global --unset url."https://x-access-token:${KMON_DB_READ}@github.com/acecmg/".insteadOf
 
-      - name: Atualizar submódulo kmon_db para o commit mais recente
-        run: |
-          git submodule update --remote --merge kmon_db
-          echo "kmon_db HEAD: $(git -C kmon_db rev-parse HEAD)"
 
       - name: Configurar Python
         uses: actions/setup-python@v5
