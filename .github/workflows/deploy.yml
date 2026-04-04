@@ -8,9 +8,8 @@ on:
     - cron: '0 3 * * *'
 
 permissions:
-  contents: write      # para commitar o ponteiro do submodulo
-  pages: write         # para publicar no GitHub Pages
-  id-token: write      # necessário para actions/deploy-pages
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
@@ -20,21 +19,15 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout kmon_serving
-        uses: actions/checkout@v4
-        with:
-          submodules: false
-          fetch-depth: 0
-
-      - name: Inicializar e atualizar submódulo kmon_db
+      - name: Clonar kmon_db (com submodulo kmon_api)
         env:
           KMON_DB_READ: ${{ secrets.KMON_DB_READ }}
         run: |
-          git config --global url."https://x-access-token:${KMON_DB_READ}@github.com/acecmg/".insteadOf "https://github.com/acecmg/"
-          git submodule update --init --recursive kmon_db
-          git submodule update --remote --merge kmon_db
-          echo "kmon_db HEAD: $(git -C kmon_db rev-parse HEAD)"
-          git config --global --unset url."https://x-access-token:${KMON_DB_READ}@github.com/acecmg/".insteadOf
+          git clone \
+            --recurse-submodules \
+            "https://x-access-token:${KMON_DB_READ}@github.com/acecmg/kmon_db.git" \
+            kmon_db
+          echo "kmon_db HEAD: $(git -C kmon_db rev-parse --short HEAD)"
 
       - name: Configurar Python
         uses: actions/setup-python@v5
