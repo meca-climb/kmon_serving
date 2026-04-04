@@ -1,0 +1,1094 @@
+id: br_mg_lagoa_santa_gruta_da_lapinha
+nome: Gruta da Lapinha
+creditos:
+- Daniel Ferreira Mariano
+- Eustáquio Macedo Melo Júnior
+arquivos_markdown:
+- titulo: Capa
+  conteudo: '# Guia de escaladas da Lapinha
+
+    ## Lagoa Santa - MG
+
+
+    ![Mapa de Visão Geral](imagens/pagina_0_imagem_0.webp)
+
+
+    Área de escalada da Lapinha no ano de 2002.
+
+
+    **Autores:**
+
+    - Daniel Ferreira Mariano
+
+    - Eustáquio Macedo Melo Júnior'
+- titulo: Créditos e Informações
+  conteudo: '# Créditos e Informações
+
+
+    Este guia é de autoria de:
+
+    - Daniel Ferreira Mariano
+
+    - Eustáquio Macedo Melo Júnior
+
+    - 2002
+
+
+    Disponível em: www.rumos.net.br
+
+
+    ![Rumos](imagens/pagina_1_imagem_3.webp)
+
+
+    ![AltaMontanha.com](imagens/pagina_1_imagem_1.webp)
+
+    ![Loja AltaMontanha](imagens/pagina_1_imagem_2.webp)
+
+    ![FEMEMG](imagens/pagina_1_imagem_0.webp)
+
+
+    Escale com segurança, respeite o local e traga seu lixo de volta para casa.'
+picos:
+- nome: Gruta da Lapinha
+  estado: MG
+  setores:
+  - conteudo:
+      nome: Castelinho
+      mapas:
+      - caminho_imagem_mapa: imagens/pagina_2_imagem_0.webp
+      escaladas:
+      - via_movel:
+          nome: Sai que é vaca
+          id_no_mapa: '1'
+          dificuldade: BR_6
+          conquistadores:
+          - Márcio Soares Macena
+          - Wilson Novaes
+      - via_movel:
+          nome: Favo de Mel
+          id_no_mapa: '2'
+          dificuldade: BR_6
+          conquistadores:
+          - Márcio Soares Macena
+          - Wilson Novaes
+      - via_movel:
+          nome: Retorno do Marco
+          id_no_mapa: '3'
+          dificuldade: BR_3
+          conquistadores:
+          - Antonio C. Magalhães
+          - Marco Antônio Canelas
+      - via_esportiva:
+          nome: Tomara que não chova
+          id_no_mapa: '4'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Christian A. N. Costa
+          - Leo Guimarães 'Léo Dandão'
+      - via_esportiva:
+          nome: Castelinho
+          id_no_mapa: '5'
+          dificuldade: BR_6
+          conquistadores:
+          - Marcelo Henrique Grijó Utsch
+          - Cristiano Loureiro
+      - via_esportiva:
+          nome: Projeto
+          id_no_mapa: '6'
+          dificuldade: PROJETO
+      descricao: '# Setor Castelinho
+
+
+        O setor Castelinho possui 6 vias, sendo 3 móveis e 3 fixas.'
+  - conteudo:
+      nome: Entrada da Gruta
+      mapas:
+      - caminho_imagem_mapa: imagens/pagina_3_imagem_0.webp
+      escaladas:
+      - via_movel:
+          nome: Ajoelhou tem que Rezar
+          id_no_mapa: '7'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Antonio Carlos Magalhães
+      - via_esportiva:
+          nome: O Exibicionista
+          id_no_mapa: '8'
+          dificuldade: BR_5
+          conquistadores:
+          - Daniel Fernandes 'Salim'
+      descricao: '# Setor Entrada da Gruta
+
+
+        Este setor fica na entrada da gruta e possui duas vias.
+
+        O mapa mostra a trilha de acesso e o Restaurante Castelinho próximo.'
+  - conteudo:
+      nome: Gruta Principal
+      mapas:
+      - caminho_imagem_mapa: imagens/pagina_4_imagem_0.webp
+      escaladas:
+      - via_movel:
+          nome: Lua Cheia
+          id_no_mapa: '9'
+          dificuldade: BR_5
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Vladmir Haddad
+      - via_esportiva:
+          nome: Jornada nas Estrelas
+          id_no_mapa: '10'
+          dificuldade: BR_7A
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Vladmir Haddad
+      - via_esportiva:
+          nome: Egotrip
+          id_no_mapa: '11'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Vladmir Haddad
+      - via_esportiva:
+          nome: Boicote de comunicação
+          id_no_mapa: '12'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Leonardo Hoffmann
+          - Fao
+      - via_esportiva:
+          nome: Vicio
+          id_no_mapa: '13'
+          dificuldade: BR_6
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Vladmir Haddad
+      - via_esportiva:
+          nome: Conspiração Sanguessuga
+          id_no_mapa: '14'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Leonardo Hoffmann
+          - Alexandre
+      - via_movel:
+          nome: Gota D'água
+          id_no_mapa: '15'
+          dificuldade: BR_6
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Vladmir Haddad
+      - via_movel:
+          nome: Sai de Baixo
+          id_no_mapa: '16'
+          dificuldade: BR_5
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Danilo Abreu
+      - via_esportiva:
+          nome: Pipeline
+          id_no_mapa: '17'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Gabriel Fillizola
+          - Sílvio Om
+      - via_esportiva:
+          nome: Jurubeba
+          id_no_mapa: '18'
+          dificuldade: BR_8B
+          conquistadores:
+          - Wagner Morin Gomes
+          - Wilson Novaes
+      - via_esportiva:
+          nome: Perigo Mora ao Lado
+          id_no_mapa: '19'
+          dificuldade: BR_8A
+          conquistadores:
+          - Márcio Soares Macena
+          - Mozart
+      - via_esportiva:
+          nome: Pretexto da Traição
+          id_no_mapa: '20'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Daniel Fernandes 'Salim'
+          - Ramaya Vallias
+      - via_esportiva:
+          nome: Sorriso do Lagarto
+          id_no_mapa: '21'
+          dificuldade: BR_6
+          conquistadores:
+          - André C. B. 'Andrezão'
+          - J. Roberto Cardoso 'Dagó'
+      - via_esportiva:
+          nome: Orgasmatrom
+          id_no_mapa: '22'
+          dificuldade: BR_6
+          conquistadores:
+          - André C. B. 'Andrezão'
+          - J. Roberto Cardoso 'Dagó'
+      - via_movel:
+          nome: Escaramuça
+          id_no_mapa: '23'
+          dificuldade: BR_3
+          conquistadores:
+          - Antonio Carlos Magalhães
+      - via_movel:
+          nome: Túnel do Tempo
+          id_no_mapa: '24'
+          dificuldade: BR_5
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Lúcia Magalhães
+      - via_movel:
+          nome: Dédalos
+          id_no_mapa: '25'
+          dificuldade: BR_4SUP
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Lúcia Magalhães
+      - via_movel:
+          nome: Bouquet de Rosas
+          id_no_mapa: '26'
+          dificuldade: BR_4SUP
+          conquistadores:
+          - Antonio C. Magalhães
+          - Danilo Abreu
+      - via_esportiva:
+          nome: Fogo no Rabo
+          id_no_mapa: '27'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Fabiano da Silva Fernandes
+          - Viviane da Silva Euler
+      - via_esportiva:
+          nome: Bobeou Sobrou
+          id_no_mapa: '28'
+          dificuldade: BR_7A
+          conquistadores:
+          - Fabiano da Silva Fernandes
+          - Viviane da Silva Euler
+      - via_esportiva:
+          nome: Los Cubanos
+          id_no_mapa: '29'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Fabiano da Silva Fernandes
+          - Viviane da Silva Euler
+      - via_movel:
+          nome: Folião
+          id_no_mapa: '30'
+          dificuldade: BR_6
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Lúcia Magalhães
+      - via_movel:
+          nome: Luzes
+          id_no_mapa: '31'
+          dificuldade: BR_4
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Lúcia Magalhães
+      - via_esportiva:
+          nome: Via sem informação
+          id_no_mapa: '32'
+          dificuldade: INDEFINIDO
+          conquistadores:
+          - Leonardo Guimarães 'Léo Dandão'
+      - via_movel:
+          nome: Êta Sô
+          id_no_mapa: '33'
+          dificuldade: BR_6
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Lúcia Magalhães
+      - via_esportiva:
+          nome: Via do Tetinho
+          id_no_mapa: '34'
+          dificuldade: BR_5SUP
+          conquistadores:
+          - Leonardo Guimarães 'Léo Dandão'
+      - via_esportiva:
+          nome: Ataque das Bolinhas
+          id_no_mapa: '35'
+          dificuldade: BR_4
+          conquistadores:
+          - Fabiano da Silva Fernandes
+          - Viviane da Silva Euler
+      - via_esportiva:
+          nome: Via do curso
+          id_no_mapa: '36'
+          dificuldade: BR_3
+      - via_esportiva:
+          nome: Viajandão Gramando na Chuva
+          id_no_mapa: '37'
+          dificuldade: BR_3
+          conquistadores:
+          - Eustáquio M. Melo Júnior
+          - alunos
+      - via_esportiva:
+          nome: Martelo Voador
+          id_no_mapa: '38'
+          dificuldade: BR_4
+          conquistadores:
+          - Ramaya Vallias
+          - Sérgio Soares
+      - via_esportiva:
+          nome: Coquetel de Maracujá
+          id_no_mapa: '39'
+          dificuldade: BR_4
+          conquistadores:
+          - Fabiano da Silva Fernandes
+          - Viviane da Silva Euler
+      - via_esportiva:
+          nome: Ravenloft
+          id_no_mapa: '40'
+          dificuldade: BR_6
+          conquistadores:
+          - Leonardo Guimarães 'Léo Dandão'
+      - via_esportiva:
+          nome: Muro das Lamentações
+          id_no_mapa: '41'
+          dificuldade: BR_7B
+          conquistadores:
+          - Fabiano da Silva Fernandes
+          - Viviane da Silva Euler
+      - via_esportiva:
+          nome: Equilíbrio Distante
+          id_no_mapa: '42'
+          dificuldade: BR_8A
+          conquistadores:
+          - Fabiano da Silva Fernandes
+          - Viviane da Silva Euler
+      - via_esportiva:
+          nome: Careta do Calango
+          id_no_mapa: '43'
+          dificuldade: BR_9A
+          conquistadores:
+          - Cristiano Loureiro 'Negão'
+      - via_movel:
+          nome: Pierrô e Colombina
+          id_no_mapa: '44'
+          dificuldade: BR_4SUP
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Lúcia Magalhães
+      - via_esportiva:
+          nome: Escalador sem mãe
+          id_no_mapa: '45'
+          dificuldade: BR_8A
+          conquistadores:
+          - Jovinei M. Medeiros
+          - Dante M. Borges
+          - Sérgio B. da Silva
+      - via_esportiva:
+          nome: Projeto inacabado
+          id_no_mapa: '46'
+          dificuldade: PROJETO
+      - via_esportiva:
+          nome: Sobrevibrenf´s
+          id_no_mapa: '47'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Leonardo Hoffmann
+      - via_esportiva:
+          nome: Sobreviventes
+          id_no_mapa: '48'
+          dificuldade: BR_6
+          conquistadores:
+          - Anderson (Neném)
+          - Douglas
+          - Bombom
+      - via_esportiva:
+          nome: Scarface
+          id_no_mapa: '49'
+          dificuldade: BR_7A
+          conquistadores:
+          - Gustavo Piancastelli
+          - Ronie
+      - via_esportiva:
+          nome: Posições Exóticas
+          id_no_mapa: '50'
+          dificuldade: BR_7B
+          conquistadores:
+          - Ivo Ferreira Marcelino
+      - via_esportiva:
+          nome: Garotos não Choram
+          id_no_mapa: '51'
+          dificuldade: BR_7A
+          conquistadores:
+          - Eustáquio Macedo Melo Júnior
+          - Emerson Alves Azeredo
+      descricao: '# Setor Gruta Principal
+
+
+        A Gruta Principal é o coração da Lapinha, com uma vasta gama de vias que vão
+        do 3º ao 9º grau.
+
+
+        ## Mapas
+
+
+        ![Mapa 3](imagens/pagina_4_imagem_0.webp)
+
+
+        ![Mapa 4](imagens/pagina_5_imagem_0.webp)
+
+
+        "Para Savassinha" indica a direção para outros setores.
+
+        "Sala de Aula" é uma área específica dentro da gruta.'
+  - conteudo:
+      nome: Mapa 5
+      mapas:
+      - caminho_imagem_mapa: imagens/pagina_7_imagem_0.webp
+      escaladas:
+      - via_esportiva:
+          nome: Ben Moon
+          id_no_mapa: '52'
+          dificuldade: BR_7C
+          descricao: Top Rope
+          conquistadores:
+          - Eustáquio Macedo
+          - Emerson Alves Azeredo
+      - via_esportiva:
+          nome: Come Quieto
+          id_no_mapa: '53'
+          dificuldade: BR_8B
+          conquistadores:
+          - Alexandre Galvão
+          - XXX
+      - via_esportiva:
+          nome: O Perigo que Veio do Céu
+          id_no_mapa: '54'
+          dificuldade: BR_7A
+          conquistadores:
+          - Fabiano da Silva Fernandes
+          - Charles Costa Marinho
+      - via_esportiva:
+          nome: Arranca Couro
+          id_no_mapa: '55'
+          dificuldade: BR_7A
+          conquistadores:
+          - Charles C. Marinho
+          - Emerson A. Azeredo
+          - Fabiano Fernandes
+      - via_esportiva:
+          nome: Ônibus Inglês
+          id_no_mapa: '56'
+          dificuldade: BR_6
+          conquistadores:
+          - Daniel Fernandes 'Salim'
+          - Leonardo Hoffmann
+      - via_esportiva:
+          nome: Gigante de Bronze
+          id_no_mapa: '57'
+          dificuldade: BR_6
+          conquistadores:
+          - André C. B. 'Andrezão'
+          - Anderson B. Felisário
+      - via_esportiva:
+          nome: Karrenglass
+          id_no_mapa: '58'
+          dificuldade: BR_5SUP
+          conquistadores:
+          - Eduardo V. de A. 'Ralf'
+          - Ricardo Leal
+          - Rodrigo Tinoco
+      - via_esportiva:
+          nome: Retorno dos Anões
+          id_no_mapa: '59'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Fábio Luiz Faria 'Fabinho'
+          - Míriam Morato Duarte
+          - Denise
+      - via_esportiva:
+          nome: Compromisso Sexual
+          id_no_mapa: '60'
+          dificuldade: BR_7C
+          conquistadores:
+          - Emerson A. Azeredo
+          - Eustáquio Júnior
+          - Fabiano Fernandes
+      descricao: '# Setor Mapa 5
+
+
+        Este setor conta com vias técnicas, incluindo a famosa Ben Moon (7c).
+
+        Localizado próximo ao pasto e à mancha amarela.'
+  - conteudo:
+      nome: Vale Verde
+      mapas:
+      - caminho_imagem_mapa: imagens/pagina_8_imagem_0.webp
+      escaladas:
+      - via_esportiva:
+          nome: Psico Circus
+          id_no_mapa: '62'
+          dificuldade: BR_8A
+          conquistadores:
+          - André C. B. 'Andrezão'
+          - Anderson B. Felisário
+      - via_esportiva:
+          nome: Os impossíveis
+          id_no_mapa: '63'
+          dificuldade: BR_8B
+          conquistadores:
+          - André C. B. 'Andrezão'
+          - Anderson B. Felisário
+      - via_esportiva:
+          nome: Carbonáticus Calcicus
+          id_no_mapa: '64'
+          dificuldade: BR_7A
+          conquistadores:
+          - Leonardo Hoffmann
+          - Eduardo Viana de Azevedo 'Ralf'
+      - via_movel:
+          nome: Para não dizer que não falei de flores
+          id_no_mapa: '65'
+          dificuldade: BR_5SUP
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Ricardo Jardim Leal
+      - via_movel:
+          nome: As Aparências Enganam
+          id_no_mapa: '66'
+          dificuldade: BR_5SUP
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Júlio César Cardoso
+      - via_esportiva:
+          nome: Eu quero é ver o oco
+          id_no_mapa: '67'
+          dificuldade: BR_7B
+          conquistadores:
+          - Ricardo Jardim Leal
+          - Leonardo Oliveira
+          - Danilo Tolentino
+      - via_movel:
+          nome: Cortando Prego
+          id_no_mapa: '68'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Edgardo Abreu 'Caca'
+          - Leandro Antônio Reis
+      - via_esportiva:
+          nome: Vive lá brenf
+          id_no_mapa: '69'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - André 'DJ'
+          - Léo Hoffmann
+          - André 'Granola'
+          - Guta Piancastelli
+      - via_esportiva:
+          nome: Rastafary Baby
+          id_no_mapa: '70'
+          dificuldade: BR_7C
+          conquistadores:
+          - Leonardo Hoffman
+      - via_esportiva:
+          nome: Varinha de Condon
+          id_no_mapa: '71'
+          dificuldade: BR_7A
+          conquistadores:
+          - Wilson Novaes
+          - Márcio Soares Macena
+      - via_esportiva:
+          nome: Tempestade Cerebral
+          id_no_mapa: '72'
+          dificuldade: BR_8A
+          conquistadores:
+          - André C. B. 'Andrezão'
+          - Anderson B. Felisário
+      - via_esportiva:
+          nome: Chambinho
+          id_no_mapa: '73'
+          dificuldade: BR_8C
+          conquistadores:
+          - Anderson Felisário
+          - Andrezão
+          - Eduardo 'Ralf'
+          - Eustáquio Jr.
+      - via_esportiva:
+          nome: Revolução dos Micos
+          id_no_mapa: '74'
+          dificuldade: BR_7B
+          conquistadores:
+          - Eduardo Amaral
+          - Jean e Ane Ouriques
+          - Leonardo Rocenik
+      - via_esportiva:
+          nome: Al Capote
+          id_no_mapa: '75'
+          dificuldade: BR_8B
+          conquistadores:
+          - Ricardo Jardim Leal
+      descricao: '# Setor Vale Verde
+
+
+        O setor Vale Verde é um dos mais clássicos da Lapinha, com vias de alta dificuldade.
+
+        Localizado fora de escala no mapa principal, logo após o Bloco do Raul Seixas.'
+  - conteudo:
+      nome: Mapa 7
+      mapas:
+      - caminho_imagem_mapa: imagens/pagina_9_imagem_0.webp
+      escaladas:
+      - via_esportiva:
+          nome: Cariocas não dizem Uai
+          id_no_mapa: '76'
+          dificuldade: BR_7A
+          conquistadores:
+          - Ivo Júnior
+          - Rma
+      - via_esportiva:
+          nome: Doutor Lund
+          id_no_mapa: '77'
+          dificuldade: BR_7A
+          conquistadores:
+          - Eustáquio Macedo Melo Júnior
+          - Mário Almeida Neto
+      - via_esportiva:
+          nome: Aceitam-se Sugestões
+          id_no_mapa: '78'
+          dificuldade: BR_7C
+          conquistadores:
+          - Juan Kempen
+          - Pedro Assis Leite
+      - via_esportiva:
+          nome: Rosa dos Ventos
+          id_no_mapa: '79'
+          dificuldade: BR_9A
+          conquistadores:
+          - Ramaya Vallias
+          - Léo Quirino
+      - via_esportiva:
+          nome: Monte Calvário
+          id_no_mapa: '80'
+          dificuldade: BR_5SUP
+          conquistadores:
+          - Ramaya Vallias
+          - Léo Quirino
+      - via_movel:
+          nome: Pó-na-beiça
+          id_no_mapa: '81'
+          dificuldade: BR_5
+          conquistadores:
+          - Wilson Novaes
+          - Márcio Soares Macena
+      - via_esportiva:
+          nome: Três dentro, três fora
+          id_no_mapa: '82'
+          dificuldade: BR_7A
+          conquistadores:
+          - Jovinei M. Medeiros
+          - Helon B. Neto
+          - Paulo R. Patrocínio
+      - via_esportiva:
+          nome: Só para eles
+          id_no_mapa: '83'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Daniel Fernandes 'Salim'
+          - Ramaya Vallias
+      - via_esportiva:
+          nome: Só para elas
+          id_no_mapa: '84'
+          dificuldade: BR_4
+          conquistadores:
+          - Daniel Fernandes 'Salim'
+          - Ramaya Vallias
+      - via_esportiva:
+          nome: Prestobarba
+          id_no_mapa: '85'
+          dificuldade: BR_5
+          conquistadores:
+          - Daniel Fernandes 'Salim'
+      - via_esportiva:
+          nome: Bigode Limpo
+          id_no_mapa: '86'
+          dificuldade: BR_5SUP
+          conquistadores:
+          - Antonio Carlos Magalhães
+          - Emerson Alves Azeredo
+      descricao: '# Setor Mapa 7
+
+
+        Este setor inclui a via "Rosa dos Ventos" (9a) e o "Monte Calvário".
+
+        Localizado entre a Gruta e o Vale Verde.'
+  - conteudo:
+      nome: Túnel de Pedra
+      mapas:
+      - caminho_imagem_mapa: imagens/pagina_10_imagem_0.webp
+      escaladas:
+      - via_esportiva:
+          nome: Bigode de Cristo
+          id_no_mapa: '87'
+          dificuldade: BR_6
+          conquistadores:
+          - Eustáquio Macedo Melo Júnior
+          - Fábio Luiz Farias 'Fabinho'
+      - via_esportiva:
+          nome: Bigode Sujo
+          id_no_mapa: '88'
+          dificuldade: BR_7C
+          conquistadores:
+          - Emerson A. Azeredo
+          - Eustáquio M. M. Júnior
+          - Gilberto Torres
+      - via_esportiva:
+          nome: Bigode de Espinho
+          id_no_mapa: '89'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Alexandre F. de Queiroz 'Caverna'
+          - Edgardo Abreu 'Caca'
+      - via_esportiva:
+          nome: Ecos do Além
+          id_no_mapa: '90'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Dante Martins Borges
+          - Sérgio Bastos da Silva
+      - via_movel:
+          nome: Trombeta Acéfala
+          id_no_mapa: '91'
+          dificuldade: BR_5SUP
+          conquistadores:
+          - Eustáquio M. Melo Júnior
+          - Leonardo Hoffmann
+      - via_movel:
+          nome: Meio Cubanos
+          id_no_mapa: '92'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Roberto Lincoln de Freitas
+      - via_esportiva:
+          nome: Golpe Ninja
+          id_no_mapa: '93'
+          dificuldade: BR_7C
+          conquistadores:
+          - Dante Martins Borges
+          - Sérgio Bastos da Silva
+      - via_esportiva:
+          nome: Tripla Traição
+          id_no_mapa: '94'
+          dificuldade: INDEFINIDO
+          conquistadores:
+          - Emerson A. Azeredo
+          - Eustáquio M. M. Júnior
+          - Léo Hoffmann
+      - via_esportiva:
+          nome: Noivado da Feiticeira
+          id_no_mapa: '95'
+          dificuldade: BR_6
+          conquistadores:
+          - Emerson A. Azeredo
+          - Leonardo Hoffmann
+          - Ramaya Vallias
+      - via_esportiva:
+          nome: Planeta dos Macacos
+          id_no_mapa: '96'
+          dificuldade: INDEFINIDO
+          conquistadores:
+          - Leonardo Hoffmann
+          - Alexandre 'Caverna'
+      - via_esportiva:
+          nome: Rota de colisão
+          id_no_mapa: '97'
+          dificuldade: BR_8A
+          conquistadores:
+          - Leonardo Hoffmann
+          - Marco Antônio Canelas
+      - via_esportiva:
+          nome: Projeto Daniel Salim
+          id_no_mapa: '98'
+          dificuldade: PROJETO
+      - via_esportiva:
+          nome: Vale Perdido
+          id_no_mapa: '99'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Emerson Alves Azeredo
+          - Gilberto Torres
+      - via_esportiva:
+          nome: Consolo da Surucucu
+          id_no_mapa: '100'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Vinícius B. Assis
+      - via_esportiva:
+          nome: Santos e Hereges
+          id_no_mapa: '101'
+          dificuldade: BR_9B
+          conquistadores:
+          - Eustáquio Macedo Melo Júnior
+          - Mário Almeida Neto
+      - via_esportiva:
+          nome: O Império Contra Ataca
+          id_no_mapa: '102'
+          dificuldade: BR_7C
+          conquistadores:
+          - Eustáquio M. M. Júnior
+          - Fabiano da Silva Fernandes
+      - via_esportiva:
+          nome: Jegue Voador
+          id_no_mapa: '103'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Léo Hoffmann
+          - Marco Antônio Canelas
+          - Marcelo André
+      - via_esportiva:
+          nome: Labirinto das Maritacas
+          id_no_mapa: '104'
+          dificuldade: BR_6
+          conquistadores:
+          - Emerson Alves Azeredo
+          - Gilberto Torres
+      - via_movel:
+          nome: Tentações de Maria Madalena
+          id_no_mapa: '105'
+          dificuldade: BR_6
+          conquistadores:
+          - Eustáquio M. Melo Júnior
+          - Leonardo Hoffmann
+      - via_esportiva:
+          nome: Sai do chão
+          id_no_mapa: '106'
+          dificuldade: BR_9A
+          conquistadores:
+          - Jovinei Miguel Medeiros
+          - Helon Brazil Neto
+      - via_esportiva:
+          nome: Ato Imperdoável
+          id_no_mapa: '107'
+          dificuldade: BR_8A
+          conquistadores:
+          - Eustáquio M. M. Júnior
+          - Fabiano da Silva Fernandes
+      - via_esportiva:
+          nome: Projeto Rodrigo do Paraná
+          id_no_mapa: '108'
+          dificuldade: PROJETO
+      - via_esportiva:
+          nome: Pequena Criança
+          id_no_mapa: '109'
+          dificuldade: BR_7A
+          conquistadores:
+          - Wilson Novaes
+          - Ivo Ferreira Marcelino
+          - Alexandre Magos
+      descricao: '# Setor Túnel de Pedra
+
+
+        Este setor apresenta um teto impressionante e vias como "Santos e Hereges"
+        (9b).
+
+        O mapa detalha a localização das vias em torno do túnel.'
+  - conteudo:
+      nome: Savassinha
+      mapas:
+      - caminho_imagem_mapa: imagens/pagina_11_imagem_0.webp
+      escaladas:
+      - via_esportiva:
+          nome: Corvo Gigante
+          id_no_mapa: '110'
+          dificuldade: BR_7A
+          conquistadores:
+          - Eustáquio Macedo Melo Júnior
+          - Gilberto Torres
+      - via_esportiva:
+          nome: Gralha Pigmeia
+          id_no_mapa: '111'
+          dificuldade: BR_6
+          conquistadores:
+          - W. Novaes
+          - Ivo Marcelino
+          - Alexandre Magos
+          - Léo Hoffmann
+      - via_esportiva:
+          nome: Anjo de Pedra
+          id_no_mapa: '112'
+          dificuldade: BR_5SUP
+          conquistadores:
+          - Rodrigo Tinoco França
+          - Vinícius
+      - via_esportiva:
+          nome: Um Porco que Sobe
+          id_no_mapa: '113'
+          dificuldade: BR_7A
+          conquistadores:
+          - Leonardo Hoffmann
+          - Henrequinho
+      - via_esportiva:
+          nome: Um Corpo que Cai
+          id_no_mapa: '114'
+          dificuldade: BR_6
+          conquistadores:
+          - Emerson A. Azeredo
+          - Fábio C. Araújo
+          - Júlio C. Cardoso
+      - via_esportiva:
+          nome: Realidade da Coisa
+          id_no_mapa: '115'
+          dificuldade: BR_9B
+          conquistadores:
+          - Fabinho de Petrópolis
+          - Marquinhos
+          - Xacundum
+      - via_esportiva:
+          nome: Realidade Sobreposta
+          id_no_mapa: '116'
+          dificuldade: BR_8C
+          conquistadores:
+          - Fabiano da Silva Fernandes
+          - Fabinho de Teresópolis
+      - via_esportiva:
+          nome: Talhadeira Passa
+          id_no_mapa: '117'
+          dificuldade: BR_8B
+          conquistadores:
+          - Felipe
+          - Abobrinha
+      - via_esportiva:
+          nome: Cova dos Leões
+          id_no_mapa: '118'
+          dificuldade: BR_7A
+          conquistadores:
+          - Emerson Alves Azeredo
+          - Gilberto Torres
+      - via_esportiva:
+          nome: Mentalidade Suburbana
+          id_no_mapa: '119'
+          dificuldade: BR_7A
+          conquistadores:
+          - Ricardo J. Leal
+          - Rodrigo Tinoco
+          - Fábio L. Farias 'Fabinho'
+      - via_esportiva:
+          nome: Rato Assassino
+          id_no_mapa: '120'
+          dificuldade: BR_8A
+          conquistadores:
+          - Fabinho de Petrópolis
+          - Alexandre Xacundum
+      - via_esportiva:
+          nome: Masturbações de Calígula
+          id_no_mapa: '123'
+          dificuldade: BR_7A
+          conquistadores:
+          - Márcio Soares Macena
+          - Wilson Novaes
+      - via_movel:
+          nome: Primeiro General
+          id_no_mapa: '124'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Roberto Lincoln de Freitas
+      descricao: '# Setor Savassinha
+
+
+        A Savassinha é um setor técnico com vias como "Realidade da Coisa" (9b).
+
+        O mapa mostra a disposição das vias em uma área compacta.'
+  - conteudo:
+      nome: Bloco Romano
+      mapas:
+      - caminho_imagem_mapa: imagens/pagina_12_imagem_0.webp
+      escaladas:
+      - via_esportiva:
+          nome: Spartacus
+          id_no_mapa: '125'
+          dificuldade: BR_5
+          descricao: Top Rope
+          conquistadores:
+          - Fabiano Fernandes da Silva
+      - via_esportiva:
+          nome: A Era dos Patrícios
+          id_no_mapa: '126'
+          dificuldade: BR_7A
+          conquistadores:
+          - Eustáquio Macedo Melo Júnior
+          - Gilberto Torres
+      - via_esportiva:
+          nome: Coliseu
+          id_no_mapa: '127'
+          dificuldade: BR_6
+          conquistadores:
+          - Ramaya Vallias
+          - Emerson
+          - Eustáquio
+          - Fabiano Fernandes
+          - Gilberto Torres
+      - via_esportiva:
+          nome: Pobre César
+          id_no_mapa: '128'
+          dificuldade: BR_7A
+          conquistadores:
+          - Torres
+      - via_esportiva:
+          nome: Soprano (inacabada)
+          id_no_mapa: '129'
+          dificuldade: PROJETO
+          conquistadores:
+          - M. Macena
+          - Eduardo Feliciano
+          - A. Magos
+          - Ivo Marcelino
+          - Daniel Fernandes 'Salim'
+          - Eustáquio Macedo Melo Júnior
+      - via_esportiva:
+          nome: Sodoma e Gomorra
+          id_no_mapa: '130'
+          dificuldade: BR_4
+          conquistadores:
+          - Júnior
+      - via_esportiva:
+          nome: Calígula
+          id_no_mapa: '131'
+          dificuldade: BR_6SUP
+          conquistadores:
+          - Eustáquio
+          - Fabiano
+          - Gilberto Torres
+          - Emerson Azeredo
+      descricao: '# Setor Bloco Romano
+
+
+        O Bloco Romano é o último setor descrito no guia, com vias temáticas da Roma
+        Antiga.
+
+        Possui um túnel de pedra e áreas de teto.'
+arquivos_externos:
+- caminho: imagens/pagina_0_imagem_0.webp
+  checksum_sha256: 38b85ffb68a9ec32d3cac52627e14f4c50660aaaf413873a20b2dd0e22951588
+- caminho: imagens/pagina_10_imagem_0.webp
+  checksum_sha256: 53bf70650b74d74e986f2683b4056d5054690b17b633755cc06ffd5e94261db2
+- caminho: imagens/pagina_11_imagem_0.webp
+  checksum_sha256: e2573f5ce375958c07ea2393cf3f1fed4842103fa5a467e0d790247167f0c3bc
+- caminho: imagens/pagina_12_imagem_0.webp
+  checksum_sha256: c67226ee50cc08c580b3e3d24aa2a6dc36ac3c4f7c4127b7268cf6bef7d939fc
+- caminho: imagens/pagina_1_imagem_0.webp
+  checksum_sha256: 31e6e66c15c421d523fb8e562e69a37ff641a056ca25a62ffde3090ba5c519f0
+- caminho: imagens/pagina_1_imagem_1.webp
+  checksum_sha256: ee3aa94121038fb1c37852927d63124a743e99dc7f5171811cea3c1a8e1c1c2f
+- caminho: imagens/pagina_1_imagem_2.webp
+  checksum_sha256: 29a58cc068e3036c583226e4c9fa2244ba70fb6c09f7fbf02746f5884b30e778
+- caminho: imagens/pagina_1_imagem_3.webp
+  checksum_sha256: 04a1743cb08c08f3003d1ffa08a6c5ca1b73b9118bb6e93dd2869f96d5a90d26
+- caminho: imagens/pagina_2_imagem_0.webp
+  checksum_sha256: bc3cb9f2404bbf876996e8d6c814f1095465e79e0d31432533b2e7c3a3299f03
+- caminho: imagens/pagina_3_imagem_0.webp
+  checksum_sha256: 95d2abea39104856fa5a39f408aa64e04f89e07b713c9513382ca8810ae701c6
+- caminho: imagens/pagina_4_imagem_0.webp
+  checksum_sha256: 1d88799e1f1c59504e4648036d50dad1a5263869588ff227c6baa1597cc8aa6c
+- caminho: imagens/pagina_5_imagem_0.webp
+  checksum_sha256: 1262747510d2b0c24531fa64398ec8dcf2f29e20539af180c38985b8dc0f789c
+- caminho: imagens/pagina_7_imagem_0.webp
+  checksum_sha256: 50525084b01f18afb559b62270ac5e9ddf712fbd463965e3a80cd3ab2f5650fc
+- caminho: imagens/pagina_8_imagem_0.webp
+  checksum_sha256: c30e64302101667f6df777426af2f0691f21d7048437b61fdbfc32cd317a147c
+- caminho: imagens/pagina_9_imagem_0.webp
+  checksum_sha256: d7c5d52104864a05e17e2a1e856973147e46ae5877d6cae22c2cd734f89adf34
