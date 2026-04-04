@@ -1,0 +1,71 @@
+name: Deploy kmon-db data
+
+on:
+  # Triggado pelo repositório kmon-db via repository_dispatch quando há commit novo
+  repository_dispatch:
+    types: [kmon-db-updated]
+
+  # Permite rodar manualmente pelo GitHub UI
+  workflow_dispatch:
+
+  # Fallback: roda diariamente às 3h UTC para garantir consistência
+  schedule:
+    - cron: '0 3 * * *'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # necessário para commitar no próprio repo
+
+    steps:
+      - name: Checkout kmon_serving (com submódulo kmon-db)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          # Garante que o submódulo aponta para o commit mais recente do kmon-db
+          fetch-depth: 0
+
+      - name: Atualizar submódulo kmon-db para o commit mais recente
+        run: |
+          git submodule update --remote --merge kmon-db
+          echo "kmon-db HEAD: $(git -C kmon-db rev-parse HEAD)"
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: kmon-db/requirements-deploy.txt
+
+      - name: Instalar dependências de deploy
+        run: pip install -r kmon-db/requirements-deploy.txt
+
+      - name: Executar deploy_generated.py
+        # Roda a partir de kmon-db/ para que ROOT_DIR e DATABASE_DIR apontem corretamente.
+        # --output-dir aponta para a raiz de kmon_serving onde os arquivos serão servidos.
+        run: |
+          cd kmon-db
+          python scripts/deploy_generated.py \
+            --url-base "https://acecmg.github.io/kmon_serving" \
+            --output-dir "../"
+
+      - name: Commitar e publicar no GitHub Pages
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Atualiza o ponteiro do submódulo no commit (garante deploy atômico)
+          git add kmon-db
+          # Adiciona todos os arquivos gerados
+          git add --all
+
+          # Só commita se houver mudanças
+          if git diff --cached --quiet; then
+            echo "Sem mudancas, nada a publicar."
+          else
+            KMON_DB_SHA=$(git -C kmon-db rev-parse --short HEAD)
+            git commit -m "chore: deploy kmon-db@${KMON_DB_SHA}"
+            git push
+            echo "Deploy publicado com sucesso."
+          fi
