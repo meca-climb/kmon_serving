@@ -19,7 +19,6 @@ jobs:
         with:
           submodules: false
           fetch-depth: 0
-          token: ${{ secrets.KMON_DB_READ }}
 
       - name: Inicializar e atualizar submódulo kmon_db
         env:
