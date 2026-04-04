@@ -41,7 +41,7 @@ jobs:
           cd kmon_db
           python scripts/deploy_generated.py \
             --url-base "https://acecmg.github.io/kmon_serving" \
-            --output-dir "../"
+            --output-dir "../docs/"
 
       - name: Commitar e publicar no GitHub Pages
         run: |
