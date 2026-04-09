@@ -35,6 +35,14 @@ jobs:
           cache: 'pip'
           cache-dependency-path: kmon_db/requirements-deploy.txt
 
+      - name: Configurar Dart
+        uses: dart-lang/setup-dart@v1
+
+      - name: Instalar protoc_plugin (Dart)
+        run: |
+          dart pub global activate protoc_plugin
+          echo "$HOME/.pub-cache/bin" >> $GITHUB_PATH
+
       - name: Instalar dependências de deploy
         run: pip install -r kmon_db/requirements-deploy.txt
 
