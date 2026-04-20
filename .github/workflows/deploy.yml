@@ -19,7 +19,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Clonar kmon_db (com submodulo kmon_api)
+      - name: Clonar kmon_db (somente a pasta generated do último commit)
         env:
           KMON_DB_READ: ${{ secrets.KMON_DB_READ }}
         run: |
