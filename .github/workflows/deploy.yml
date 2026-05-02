@@ -19,16 +19,22 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: Gerar Token do GitHub App
+        uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ secrets.BOT_APP_ID }}
+          private-key: ${{ secrets.BOT_PRIVATE_KEY }}
+          owner: meca-climb
+
       - name: Clonar kmon_db (somente a pasta generated do último commit)
-        env:
-          KMON_DB_READ: ${{ secrets.KMON_DB_READ }}
         run: |
-          git config --global url."https://x-access-token:${KMON_DB_READ}@github.com/meca-climb/".insteadOf "https://github.com/meca-climb/"
+          git config --global url."https://x-access-token:${{ steps.app-token.outputs.token }}@github.com/meca-climb/".insteadOf "https://github.com/meca-climb/"
           git clone --depth 1 --filter=blob:none --sparse "https://github.com/meca-climb/kmon_db.git" kmon_db
           cd kmon_db
           git sparse-checkout set generated
           cd ..
-          git config --global --unset url."https://x-access-token:${KMON_DB_READ}@github.com/meca-climb/".insteadOf
+          git config --global --unset url."https://x-access-token:${{ steps.app-token.outputs.token }}@github.com/meca-climb/".insteadOf
           echo "kmon_db HEAD: $(git -C kmon_db rev-parse --short HEAD)"
 
       - name: Configurar GitHub Pages
