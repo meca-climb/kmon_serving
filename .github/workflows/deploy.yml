@@ -23,12 +23,12 @@ jobs:
         env:
           KMON_DB_READ: ${{ secrets.KMON_DB_READ }}
         run: |
-          git config --global url."https://x-access-token:${KMON_DB_READ}@github.com/acecmg/".insteadOf "https://github.com/acecmg/"
-          git clone --depth 1 --filter=blob:none --sparse "https://github.com/acecmg/kmon_db.git" kmon_db
+          git config --global url."https://x-access-token:${KMON_DB_READ}@github.com/meca-climb/".insteadOf "https://github.com/meca-climb/"
+          git clone --depth 1 --filter=blob:none --sparse "https://github.com/meca-climb/kmon_db.git" kmon_db
           cd kmon_db
           git sparse-checkout set generated
           cd ..
-          git config --global --unset url."https://x-access-token:${KMON_DB_READ}@github.com/acecmg/".insteadOf
+          git config --global --unset url."https://x-access-token:${KMON_DB_READ}@github.com/meca-climb/".insteadOf
           echo "kmon_db HEAD: $(git -C kmon_db rev-parse --short HEAD)"
 
       - name: Configurar GitHub Pages
