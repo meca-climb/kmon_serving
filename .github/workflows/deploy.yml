@@ -1,8 +1,8 @@
-name: Deploy kmon-db data
+name: Deploy aresta-db data
 
 on:
   repository_dispatch:
-    types: [kmon-db-updated]
+    types: [aresta-db-updated]
   workflow_dispatch:
   schedule:
     - cron: '0 3 * * 0'
@@ -25,17 +25,17 @@ jobs:
         with:
           app-id: ${{ secrets.BOT_APP_ID }}
           private-key: ${{ secrets.BOT_PRIVATE_KEY }}
-          owner: meca-climb
+          owner: aresta-climb
 
-      - name: Clonar kmon_db (somente a pasta generated do último commit)
+      - name: Clonar aresta_db (somente a pasta generated do último commit)
         run: |
-          git config --global url."https://x-access-token:${{ steps.app-token.outputs.token }}@github.com/meca-climb/".insteadOf "https://github.com/meca-climb/"
-          git clone --depth 1 --filter=blob:none --sparse "https://github.com/meca-climb/kmon_db.git" kmon_db
-          cd kmon_db
+          git config --global url."https://x-access-token:${{ steps.app-token.outputs.token }}@github.com/aresta-climb/".insteadOf "https://github.com/aresta-climb/"
+          git clone --depth 1 --filter=blob:none --sparse "https://github.com/aresta-climb/aresta_db.git" aresta_db
+          cd aresta_db
           git sparse-checkout set generated
           cd ..
-          git config --global --unset url."https://x-access-token:${{ steps.app-token.outputs.token }}@github.com/meca-climb/".insteadOf
-          echo "kmon_db HEAD: $(git -C kmon_db rev-parse --short HEAD)"
+          git config --global --unset url."https://x-access-token:${{ steps.app-token.outputs.token }}@github.com/aresta-climb/".insteadOf
+          echo "aresta_db HEAD: $(git -C aresta_db rev-parse --short HEAD)"
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
@@ -43,7 +43,7 @@ jobs:
       - name: Publicar pasta no GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: kmon_db/generated/
+          path: aresta_db/generated/
 
       - name: Deploy no GitHub Pages
         id: deployment
