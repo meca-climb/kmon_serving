@@ -19,6 +19,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
       - name: Gerar Token do GitHub App
         uses: actions/create-github-app-token@v1
         id: app-token
@@ -39,6 +42,10 @@ jobs:
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
+
+      - name: Copiar arquivos estáticos para o diretório de páginas
+        run: |
+          cp POLITICA_DE_PRIVACIDADE.md aresta_db/generated/
 
       - name: Publicar pasta no GitHub Pages
         uses: actions/upload-pages-artifact@v3
