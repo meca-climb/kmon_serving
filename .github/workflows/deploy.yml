@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: Gerar Token do GitHub App
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v3
         id: app-token
         with:
           app-id: ${{ secrets.BOT_APP_ID }}
@@ -38,13 +38,13 @@ jobs:
           echo "aresta_db HEAD: $(git -C aresta_db rev-parse --short HEAD)"
 
       - name: Configurar GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Publicar pasta no GitHub Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: aresta_db/generated/
 
       - name: Deploy no GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
